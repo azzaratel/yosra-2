@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+width: 100%;
+
+    
+  }
+nav {
+    font-family: Roboto, Arial, sans-serif;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 0px;
+  margin: -16px;
+  } 
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 12px;
+  }
+
+
+.pa {
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    text-align: left;
+    color: #747474;
+    font-size: 1em;
+    line-height: 29px;
+    font-family: Roboto, Arial, sans-serif;
+  }
+.img1{
+    width: 290px;
+}
+  .sec1 {
+    width: 67%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30%;
+  }
+  
+  .country {
+    width: calc((100% / 3)-1%);
+    border: #0000000a 1px solid;
+    border-radius: 5px;
+    margin: 15px 0px;
+  }
+  
+  .country img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .butt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Roboto, Arial, sans-serif;
+    margin: 20px 0px;
+  }
+  
+  .butt span {
+    color: #747474;
+  }
+  
+  .butt button {
+    background-color: #3d83df;
+    color: white;
+    font-size: 0.625rem;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  
+div{
+    text-align: center;
+}
+.im{
+    margin: 209px;
+    padding: 66px;
+}
+
+.para{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.para h1{
+    color: #00b39b;
+}
+.con{
+    width: 100%;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  width:100%
+}
+.box p{
+width:80%;
+padding:70px
+}
+.box img{
+  margin:30px
+}
+.tableau{
+  margin :0 auto;
+  width: 60px;
+-webkit-font-smoothing: antialiased;
+		padding: 1em;
+    border: 2px solid #ffffff;
+		color: palevioletred;
+		font-size: 1.2em;
+}
+
+table,
+td {
+    border: 1px solid #333;
+   width: 60px; 
+}
+.tableau th {
+  border: 2px solid #ffffff;
+}
+.tableau h3{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.m2{    width: 100%}
+.inscrip{
+  display: block;
+}
+.login{
+  
+  width: 70px;
+text-align: center;
+}
